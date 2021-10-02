@@ -103,5 +103,10 @@
       "email,password,first,last,address1,address2,city,state,zip,country,phone,cardnumber,exp,cvv",
       "EMAIL,PASSWORD,FNAME,LNAME,COMBINEDLINE1,LINE2,CITY,REGION,ZIP,COUNTRY,PHONE,CCNUMBER,CCEXPMONTH/CCEXPYEAR2,CVV",
       true
+  ],
+  "Linear Nike":[
+      "Email Address,Profile Name,Only One Checkout,Name on Card,Card Type,Card Number,Expiration Month,Expiration Year,CVV,Same Billing/Shipping,Shipping Name,Shipping Phone,Shipping Address,Shipping Address 2,Shipping Address 3,Shipping Post Code,Shipping City,Shipping State,Shipping Country,Billing Name,Billing Phone,Billing Address,Billing Address 2,Billing Address 3,Billing Post Code,Billing City,Billing State,Billing Country,Size (Optional)",
+      "EMAIL,PROFILENAME,ONECHECKOUT,CCNAME,CCTYPE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,SAMEADDYS,COMBINEDNAME,PHONE,COMBINEDLINE1,LINE2,LINE3,ZIP,CITY,REGION,COUNTRY,COMBINEDNAME,PHONE,COMBINEDLINE1,LINE2,LINE3,ZIP,CITY,REGION,COUNTRY,SIZE",
+      true
   ]
 }
