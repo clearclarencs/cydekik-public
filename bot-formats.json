@@ -129,6 +129,11 @@
         "LINK,SIZE,FNAME,LNAME,EMAIL,PASSWORD,COMBINEDLINE1,CITY,ZIP,REGION,COUNTRY,PHONE,PPEMAIL,PPPASSWORD",
         true
     ],
+    "Source Raffles":[
+        "email,password,first_name,last_name,phone,house_number,street,address2,zip,city,country_code,cc_number,cc_expiration_month,cc_expiration_year,cc_cvv,cc_type",
+        "EMAIL,PASSWORD,FNAME,LNAME,PHONE,HOUSENUMBER,LINE1,LINE2,ZIP,CITY,COUNTRY,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,CCTYPE",
+        true
+    ],
     "Linear JSON":[
         {
             "profileName": "",
