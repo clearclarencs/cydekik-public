@@ -1,189 +1,425 @@
 {
-    "Neo Old":[
+    "aliases": {
+        "EMAIL": [
+            "email",
+            "emailaddress",
+            "accountemail"
+        ],
+        "FNAME": [
+            "firstname",
+            "first"
+        ],
+        "LNAME": [
+            "lastname",
+            "last"
+        ],
+        "HOUSENUMBER": [
+            "housenumber",
+            "streetnumber"
+        ],
+        "LINE1": [
+            "addressline1",
+            "street",
+            "address"
+        ],
+        "LINE2": [
+            "addressline2",
+            "door",
+            "address2",
+            "shippingaddress2"
+        ],
+        "CITY": [
+            "city",
+            "shippingcity"
+        ],
+        "ZIP": [
+            "postcode/zip",
+            "zip",
+            "zipcode",
+            "shippingpostcode"
+        ],
+        "REGION": [
+            "state/province/region",
+            "province",
+            "state",
+            "county",
+            "shippingstate"
+        ],
+        "COUNTRY": [
+            "country",
+            "countrycode",
+            "region",
+            "shippingcountry"
+        ],
+        "PASSWORD": [
+            "password",
+            "accountpassword"
+        ],
+        "PHONEPREFIX": [
+            "phoneprefix[e.g.+49]",
+            "prefix",
+            "phoneprefix"
+        ],
+        "INSTAGRAM": [
+            "instagram"
+        ],
+        "QUESTION": [
+            "question"
+        ],
+        "PHONE": [
+            "phone",
+            "phonenumber",
+            "shippingphone",
+            "phonenumber(with+prefix)"
+        ],
+        "CCNUMBER": [
+            "ccnumber",
+            "cardnumber",
+            "creditcardnumber"
+        ],
+        "CVV": [
+            "cccvv",
+            "cardcvv",
+            "cvv",
+            "cardcvc"
+        ],
+        "CCEXPMONTH": [
+            "ccmm",
+            "cardexpirymonth",
+            "expirymonth",
+            "ccmonth",
+            "expiremonth",
+            "cardexp.month(xx)",
+            "expirationmonth",
+            "ccexpirationmonth"
+        ],
+        "CCEXPYEAR4": [
+            "ccyyyy",
+            "ccyear",
+            "expiryyear",
+            "expireyear",
+            "cardexp.year(xxxx)",
+            "expirationyear",
+            "cardexpiryyear",
+            "ccexpirationyear"
+        ],
+        "PROFILEGROUP": [
+            "profilegroup"
+        ],
+        "PROFILENAME": [
+            "profilename"
+        ],
+        "CCEXPYEAR2": [
+            "cardexpiryyear",
+            "expiryyear"
+        ],
+        "MNAME": [
+            "middlename"
+        ],
+        "COMBINEDLINE1": [
+            "addressline1",
+            "address1",
+            "address",
+            "shippingaddress"
+        ],
+        "STYLECODE": [
+            "stylecode"
+        ],
+        "SIZE": [
+            "size",
+            "size(optional)"
+        ],
+        "CCNAME": [
+            "ccname",
+            "cardholdername",
+            "nameoncard",
+            "cardholder"
+        ],
+        "PROXY": [
+            "proxy"
+        ],
+        "SKU": [
+            "sku"
+        ],
+        "STORE": [
+            "store"
+        ],
+        "BIRTHDAYYEAR": [
+            "birthdayyear"
+        ],
+        "BIRTHDAYMONTH": [
+            "birthdaymonth"
+        ],
+        "BIRTHDAYDAY": [
+            "birthdayday"
+        ],
+        "LINK": [
+            "rafflelink",
+            "link"
+        ],
+        "PHONENUMBER": [
+            "phonenumber"
+        ],
+        "PASSOWRD": [
+            "password"
+        ],
+        "LOCATION": [
+            "location"
+        ],
+        "COLOR": [
+            "color"
+        ],
+        "SHIPPING": [
+            "shipping"
+        ],
+        "CCEXPMONTH/CCEXPYEAR2": [
+            "exp"
+        ],
+        "ONECHECKOUT": [
+            "onlyonecheckout"
+        ],
+        "CCTYPE": [
+            "cardtype",
+            "cctype"
+        ],
+        "SAMEADDYS": [
+            "samebilling/shipping"
+        ],
+        "COMBINEDNAME": [
+            "shippingname"
+        ],
+        "LINE3": [
+            "shippingaddress3"
+        ],
+        "BILLINGNAME": [
+            "billingname"
+        ],
+        "BILLINGPHONE": [
+            "billingphone"
+        ],
+        "BILLINGLINE1": [
+            "billingaddress"
+        ],
+        "BILLINGLINE2": [
+            "billingaddress2"
+        ],
+        "BILLINGLINE3": [
+            "billingaddress3"
+        ],
+        "BILLINGZIP": [
+            "billingpostcode"
+        ],
+        "BILLINGCITY": [
+            "billingcity"
+        ],
+        "BILLINGREGION": [
+            "billingstate"
+        ],
+        "BILLINGCOUNTRY": [
+            "billingcountry"
+        ],
+        "MODE": [
+            "mode"
+        ],
+        "PRODUCT": [
+            "product"
+        ],
+        "TIMER": [
+            "timer"
+        ],
+        "PPEMAIL": [
+            "paypalemail"
+        ],
+        "PPPASSWORD": [
+            "paypalpassword"
+        ]
+    },
+    "Neo Old": [
         "EMAIL,FIRST NAME,LAST NAME,HOUSE NUMBER,ADDRESS LINE 1,ADDRESS LINE 2,CITY,POSTCODE / ZIP,STATE/PROVINCE/REGION,COUNTRY,PASSWORD,PHONE PREFIX [e.g. +49],INSTAGRAM,QUESTION",
         "EMAIL,FNAME,LNAME,HOUSENUMBER,LINE1,LINE2,CITY,ZIP,REGION,COUNTRY,PASSWORD,PHONEPREFIX,INSTAGRAM,QUESTION",
         true
     ],
-    "Infinit":[
-        "first_name,last_name,email,password,prefix,phone,street,house_number,door,zip,city,province,country_code", 
+    "Infinit": [
+        "first_name,last_name,email,password,prefix,phone,street,house_number,door,zip,city,province,country_code",
         "FNAME,LNAME,EMAIL,PASSWORD,PHONEPREFIX,PHONE,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY",
         true
     ],
-    "Demon CC":[
+    "Demon CC": [
         "FIRST NAME,LAST NAME,EMAIL,PASSWORD,STREET,STREET NUMBER,ADDRESS LINE 2,ZIP CODE,CITY,STATE,COUNTRY CODE,PREFIX,PHONE NUMBER,INSTAGRAM,CC NUMBER,CC CVV,CC MM,CC YYYY",
         "FNAME,LNAME,EMAIL,PASSWORD,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY,PHONEPREFIX,PHONE,INSTAGRAM,CCNUMBER,CVV,CCEXPMONTH,CCEXPYEAR4",
         true
     ],
-    "Demon non-CC":[
+    "Demon non-CC": [
         "FIRST NAME,LAST NAME,EMAIL,PASSWORD,STREET,STREET NUMBER,ADDRESS LINE 2,ZIP CODE,CITY,STATE,COUNTRY CODE,PREFIX,PHONE NUMBER,INSTAGRAM",
         "FNAME,LNAME,EMAIL,PASSWORD,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY,PHONEPREFIX,PHONE,INSTAGRAM",
         true
     ],
-    "Hive":[
+    "Hive": [
         "Profile Group,Profile Name,FIRST NAME,LAST NAME,Email,Address,Address 2,Housenumber,Country,City,Zipcode,County,Phonenumber,Card Number,Card Expiry Month,Card Expiry Year,Card CVV",
         "PROFILEGROUP,PROFILENAME,FNAME,LNAME,EMAIL,LINE1,LINE2,HOUSENUMBER,COUNTRY,CITY,ZIP,REGION,PHONE,CCNUMBER,CCEXPMONTH,CCEXPYEAR2,CVV",
         true
     ],
-    "Usnkrs":[
+    "Usnkrs": [
         "FIRST NAME|MIDDLE NAME|LAST NAME|ADDRESS LINE 1|ADDRESS LINE 2|CITY|COUNTRY|ZIP|STATE|PHONE NUMBER|CC NUMBER|EXPIRY MONTH|EXPIRY YEAR|CVV|PROFILE NAME",
         "FNAME|MNAME|LNAME|COMBINEDLINE1|LINE2|CITY|COUNTRY|ZIP|REGION|PHONE|CCNUMBER|CCEXPMONTH|CCEXPYEAR2|CVV|PROFILENAME",
         true
     ],
-    "NeoSnkrs":[
+    "NeoSnkrs": [
         "STYLECODE,SIZE,EMAIL,PASSWORD,FIRST NAME,LAST NAME,ADDRESS1,ADDRESS2,CITY,ZIPCODE,STATE,COUNTRY,PHONE NUMBER,CC NUMBER,CC MONTH,CC YEAR,CC CVV,CC NAME,PROXY",
         "STYLECODE,SIZE,EMAIL,PASSWORD,FNAME,LNAME,COMBINEDLINE1,LINE2,CITY,ZIP,REGION,COUNTRY,PHONE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,CCNAME,PROXY",
         true
     ],
-    "Neo END":[
+    "Neo END": [
         "EMAIL,PASSWORD,SIZE,FIRST NAME,LAST NAME,ADDRESS LINE 1,ADDRESS LINE 2,CITY,ZIPCODE,STATE/PROVINCE/REGION,COUNTRY,CARD NUMBER,EXPIRY MONTH,EXPIRY YEAR,CARD CVC",
         "EMAIL,PASSWORD,SIZE,FNAME,LNAME,COMBINEDLINE1,LINE2,CITY,ZIP,REGION,COUNTRY,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV",
         true
     ],
-    "Neo Adidas":[
+    "Neo Adidas": [
         "EMAIL,PASSWORD,FIRST NAME,LAST NAME,ADDRESS LINE 1,HOUSE NUMBER,ADDRESS LINE 2,CITY,ZIPCODE,STATE/PROVINCE/REGION,COUNTRY,CARD HOLDER NAME,CARD NUMBER,EXPIRY MONTH,EXPIRY YEAR,CARD CVC",
         "EMAIL,PASSWORD,FNAME,LNAME,LINE1,HOUSENUMBER,LINE2,CITY,ZIP,REGION,COUNTRY,CCNAME,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV",
         true
     ],
-    "Neo Afew":[
+    "Neo Afew": [
         "EMAIL,FIRST NAME,LAST NAME,HOUSE NUMBER,ADDRESS LINE 1,ADDRESS LINE 2,CITY,ZIPCODE,STATE/PROVINCE/REGION,COUNTRY,PHONE PREFIX,INSTAGRAM",
         "EMAIL,FNAME,LNAME,HOUSENUMBER,LINE1,LINE2,CITY,ZIP,REGION,COUNTRY,PHONEPREFIX,INSTAGRAM",
         true
     ],
-    "Neo Size/Footpatrol":[
+    "Neo Size/Footpatrol": [
         "EMAIL,PASSWORD,FIRST NAME,LAST NAME,ADDRESS LINE 1,HOUSE NUMBER,ADDRESS LINE 2,CITY,ZIPCODE,STATE/PROVINCE/REGION,COUNTRY,PHONE PREFIX,CARD HOLDER NAME,CARD NUMBER,EXPIRY MONTH,EXPIRY YEAR,CARD CVC",
         "EMAIL,PASSWORD,FNAME,LNAME,LINE1,HOUSENUMBER,LINE2,CITY,ZIP,REGION,COUNTRY,PHONEPREFIX,CCNAME,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV",
         true
     ],
-    "Neo Footshop":[
+    "Neo Footshop": [
         "EMAIL,PASSWORD,CARD NUMBER,EXPIRE MONTH,EXPIRE YEAR,CARD CVC,FIRST NAME,LAST NAME,HOUSE NUMBER,ADDRESS LINE 1,ADDRESS LINE 2,CITY,ZIPCODE,STATE/PROVINCE/REGION,COUNTRY,PHONE PREFIX,INSTAGRAM",
         "EMAIL,PASSWORD,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,FNAME,LNAME,HOUSENUMBER,LINE1,LINE2,CITY,ZIP,REGION,COUNTRY,PHONEPREFIX,INSTAGRAM",
         true
     ],
-    "Flare Adidas":[
+    "Flare Adidas": [
         "Region,Email,Password,SKU,Size,Store,First Name,Last Name,Birthday Year,Birthday Month,Birthday Day",
         "COUNTRY,EMAIL,PASSWORD,SKU,SIZE,STORE,FNAME,LNAME,BIRTHDAYYEAR,BIRTHDAYMONTH,BIRTHDAYDAY",
         true
     ],
-    "Flare Afew":[
+    "Flare Afew": [
         "firstName,lastName,email,address1,address2,city,zip,state,country,raffleLink,size,instagram",
         "FNAME,LNAME,EMAIL,COMBINEDLINE1,LINE2,CITY,ZIP,REGION,COUNTRY,LINK,SIZE,INSTAGRAM",
         true
     ],
-    "Flare Confirmed":[
+    "Flare Confirmed": [
         "Region,Email,Password,SKU,Size,Card Number,Card Exp. Month (XX),Card Exp. Year (XXXX),Card CVV,First Name,Last Name,Address Line 1,Address Line 2,ZIP Code,City,State,Phone Number",
         "COUNTRY,EMAIL,PASSWORD,SKU,SIZE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,FNAME,LNAME,COMBINEDLINE1,LINE2,ZIP,CITY,REGION,PHONENUMBER",
         true
     ],
-    "Flare Confirmed Gen":[
-      "Region,Email,Password,First Name,Last Name,Address Line 1,Address Line 2,City,ZIP Code,State,Phone Number",
-      "COUNTRY,EMAIL,PASSOWRD,FNAME,LNAME,COMBINEDLINE1,LINE2,CITY,ZIP,REGION,PHONE",
-      true
+    "Flare Confirmed Gen": [
+        "Region,Email,Password,First Name,Last Name,Address Line 1,Address Line 2,City,ZIP Code,State,Phone Number",
+        "COUNTRY,EMAIL,PASSOWRD,FNAME,LNAME,COMBINEDLINE1,LINE2,CITY,ZIP,REGION,PHONE",
+        true
     ],
-    "Flare DSM New":[
+    "Flare DSM New": [
         "First Name,Last Name,Email,Phone Number,ZIP Code,Raffle Link,Size,Credit Card Number,Country,Location",
-        "FNAME,LNMAE,EMAIL,PHONE,ZIP,LINK,SIZE,CCNUMBER,COUNTRY,LOCATION",
+        "FNAME,LNAME,EMAIL,PHONE,ZIP,LINK,SIZE,CCNUMBER,COUNTRY,LOCATION",
         true
     ],
-    "Flare DSM Old":[
+    "Flare DSM Old": [
         "firstName,lastName,email,phone,address,state,country,zip,raffleLink,size,color,question,shipping",
-        "FNAME,LNAME,EMAIL,PHONE,COMBINEDLINE1,REGION,ZIP,LINK,SIZE,COLOR,QUESTION,SHIPPING",
+        "FNAME,LNAME,EMAIL,PHONE,COMBINEDLINE1,REGION,COUNTRY,ZIP,LINK,SIZE,COLOR,QUESTION,SHIPPING",
         true
     ],
-    "Flare End Gen":[
+    "Flare End Gen": [
         "email,password,first,last,address1,address2,city,state,zip,country,phone,cardnumber,exp,cvv",
         "EMAIL,PASSWORD,FNAME,LNAME,COMBINEDLINE1,LINE2,CITY,REGION,ZIP,COUNTRY,PHONE,CCNUMBER,CCEXPMONTH/CCEXPYEAR2,CVV",
         true
     ],
-    "Linear CSV":[
+    "Linear CSV": [
         "Email Address,Profile Name,Only One Checkout,Name on Card,Card Type,Card Number,Expiration Month,Expiration Year,CVV,Same Billing/Shipping,Shipping Name,Shipping Phone,Shipping Address,Shipping Address 2,Shipping Address 3,Shipping Post Code,Shipping City,Shipping State,Shipping Country,Billing Name,Billing Phone,Billing Address,Billing Address 2,Billing Address 3,Billing Post Code,Billing City,Billing State,Billing Country,Size (Optional)",
         "EMAIL,PROFILENAME,ONECHECKOUT,CCNAME,CCTYPE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,SAMEADDYS,COMBINEDNAME,PHONE,COMBINEDLINE1,LINE2,LINE3,ZIP,CITY,REGION,COUNTRY,BILLINGNAME,BILLINGPHONE,BILLINGLINE1,BILLINGLINE2,BILLINGLINE3,BILLINGZIP,BILLINGCITY,BILLINGREGION,BILLINGCOUNTRY,SIZE",
         true
     ],
-    "Ganesh":[
+    "Ganesh": [
         "STORE,MODE,PRODUCT,SIZE,TIMER,FIRST NAME,LAST NAME,EMAIL,PHONE NUMBER,ADDRESS LINE 1,ADDRESS LINE 2,CITY,STATE,POSTCODE / ZIP,COUNTRY,CARD NUMBER,EXPIRE MONTH,EXPIRE YEAR,CARD CVC",
         "STORE,MODE,PRODUCT,SIZE,TIMER,FNAME,LNAME,EMAIL,PHONE,COMBINEDLINE1,LINE2,CITY,REGION,ZIP,COUNTRY,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV",
         true
     ],
-    "Ambush":[
+    "Ambush": [
         "LINK,SIZE,FIRST NAME,LAST NAME,EMAIL,ADDRESS LINE 1,CITY,ZIP CODE,COUNTRY,PHONE,INSTAGRAM",
         "LINK,SIZE,FNAME,LNAME,EMAIL,COMBINEDLINE1,CITY,ZIP,COUNTRY,PHONE,INSTAGRAM",
         true
     ],
-    "Ambush CC":[
+    "Ambush CC": [
         "PRODUCT,SKU,SIZE,FIRST NAME,LAST NAME,ACCOUNT EMAIL,ACCOUNT PASSWORD,ADDRESS LINE 1,ADDRESS LINE 2,CITY,ZIP CODE,COUNTRY,PHONE NUMBER (WITH +PREFIX),CARD NUMBER,CARD EXPIRY MONTH,CARD EXPIRY YEAR,CARD CVV,CARD HOLDER",
-        "PRODUCT,SKU,SIZE,FNAME,LNAME,EMAIL,PASSWORD,COMBINEDLINE1,LINE2,CITY,ZIP,COUNTRY,PHONE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CCNAME",
+        "PRODUCT,SKU,SIZE,FNAME,LNAME,EMAIL,PASSWORD,COMBINEDLINE1,LINE2,CITY,ZIP,COUNTRY,PHONE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,CCNAME",
         true
     ],
-    "Ambush Paypal":[
+    "Ambush Paypal": [
         "LINK,SIZE,FIRST NAME,LAST NAME,EMAIL,PASSWORD,ADDRESS LINE 1,CITY,ZIP CODE,PROVINCE,COUNTRY,PHONE NUMBER,PAYPAL EMAIL,PAYPAL PASSWORD",
         "LINK,SIZE,FNAME,LNAME,EMAIL,PASSWORD,COMBINEDLINE1,CITY,ZIP,REGION,COUNTRY,PHONE,PPEMAIL,PPPASSWORD",
         true
     ],
-    "Source Raffles":[
+    "Source Raffles": [
         "email,password,first_name,last_name,phone,house_number,street,address2,zip,city,country_code,cc_number,cc_expiration_month,cc_expiration_year,cc_cvv,cc_type",
         "EMAIL,PASSWORD,FNAME,LNAME,PHONE,HOUSENUMBER,LINE1,LINE2,ZIP,CITY,COUNTRY,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,CCTYPE",
         true
     ],
-    "Linear JSON":[
+    "Linear JSON": [
         {
             "profileName": "",
             "email": "",
             "phone": "",
             "card": {
-              "cardNumber": "",
-              "expiryMonth": "",
-              "expiryYear": "",
-              "cvc": ""
+                "cardNumber": "",
+                "expiryMonth": "",
+                "expiryYear": "",
+                "cvc": ""
             },
             "shipping": {
-              "firstName": "",
-              "lastName": "",
-              "street1": "",
-              "street2": "",
-              "street3": "",
-              "city": "",
-              "zip": "",
-              "country": "",
-              "state": ""
+                "firstName": "",
+                "lastName": "",
+                "street1": "",
+                "street2": "",
+                "street3": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
             },
             "billing": {
-              "firstName": "",
-              "lastName": "",
-              "street1": "",
-              "street2": "",
-              "street3": "",
-              "city": "",
-              "zip": "",
-              "country": "",
-              "state": ""
+                "firstName": "",
+                "lastName": "",
+                "street1": "",
+                "street2": "",
+                "street3": "",
+                "city": "",
+                "zip": "",
+                "country": "",
+                "state": ""
             }
-          },
-        {"PROFILENAME": "profileName",
-        "EMAIL": "email",
-        "PHONE": "phone",
-        "CCNUMBER": "card_cardNumber",
-        "CCEXPMONTH": "card_expiryMonth",
-        "CCEXPYEAR2": "card_expiryYear",
-        "CVV": "card_cvc",
-        "FNAME": "shipping_firstName",
-        "LNAME": "shipping_lastName",
-        "COMBINEDLINE1": "shipping_street1",
-        "LINE2": "shipping_street2",
-        "LINE3": "shipping_street3",
-        "CITY": "shipping_city",
-        "ZIP": "shipping_zip",
-        "COUNTRY": "shipping_country",
-        "REGION": "shipping_state",
-        "BILLINGFNAME": "billing_firstName",
-        "BILLINGLNAME": "billing_lastName",
-        "BILLINGCOMBINEDLINE1": "billing_street1",
-        "BILLINGLINE2": "billing_street2",
-        "BILLINGLINE3": "billing_street3",
-        "BILLINGCITY": "billing_city",
-        "BILLINGZIP": "billing_zip",
-        "BILLINGCOUNTRY": "billing_country",
-        "BILLINGREGION": "billing_state"
-    },
-    true
+        },
+        {
+            "PROFILENAME": "profileName",
+            "EMAIL": "email",
+            "PHONE": "phone",
+            "CCNUMBER": "card_cardNumber",
+            "CCEXPMONTH": "card_expiryMonth",
+            "CCEXPYEAR2": "card_expiryYear",
+            "CVV": "card_cvc",
+            "FNAME": "shipping_firstName",
+            "LNAME": "shipping_lastName",
+            "COMBINEDLINE1": "shipping_street1",
+            "LINE2": "shipping_street2",
+            "LINE3": "shipping_street3",
+            "CITY": "shipping_city",
+            "ZIP": "shipping_zip",
+            "COUNTRY": "shipping_country",
+            "REGION": "shipping_state",
+            "BILLINGFNAME": "billing_firstName",
+            "BILLINGLNAME": "billing_lastName",
+            "BILLINGCOMBINEDLINE1": "billing_street1",
+            "BILLINGLINE2": "billing_street2",
+            "BILLINGLINE3": "billing_street3",
+            "BILLINGCITY": "billing_city",
+            "BILLINGZIP": "billing_zip",
+            "BILLINGCOUNTRY": "billing_country",
+            "BILLINGREGION": "billing_state"
+        },
+        true
     ]
 }
