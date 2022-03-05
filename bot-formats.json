@@ -72,26 +72,35 @@
             "shippingphone",
             "phonenumber(with+prefix)"
         ],
+        "PPEMAIL": [
+            "paypalemail"
+        ],
         "CCNUMBER": [
             "ccnumber",
             "cardnumber",
             "creditcardnumber"
         ],
         "CVV": [
+            "cccvc",
             "cccvv",
             "cardcvv",
             "cvv",
             "cardcvc"
         ],
         "CCEXPMONTH": [
+            "ccmonth",
             "ccmm",
             "cardexpirymonth",
             "expirymonth",
-            "ccmonth",
             "expiremonth",
             "cardexp.month(xx)",
             "expirationmonth",
             "ccexpirationmonth"
+        ],
+        "CCEXPYEAR2": [
+            "ccyear",
+            "cardexpiryyear",
+            "expiryyear"
         ],
         "CCEXPYEAR4": [
             "ccyyyy",
@@ -108,10 +117,6 @@
         ],
         "PROFILENAME": [
             "profilename"
-        ],
-        "CCEXPYEAR2": [
-            "cardexpiryyear",
-            "expiryyear"
         ],
         "MNAME": [
             "middlename"
@@ -227,9 +232,6 @@
         "TIMER": [
             "timer"
         ],
-        "PPEMAIL": [
-            "paypalemail"
-        ],
         "PPPASSWORD": [
             "paypalpassword"
         ]
@@ -242,6 +244,11 @@
     "Infinit": [
         "first_name,last_name,email,password,prefix,phone,street,house_number,door,zip,city,province,country_code",
         "FNAME,LNAME,EMAIL,PASSWORD,PHONEPREFIX,PHONE,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY",
+        true
+    ],
+    "Infinit CC": [
+        "first_name,last_name,email,password,prefix,phone,street,house_number,door,zip,city,province,country_code,paypal_email,cc_number,cc_cvc,cc_month,cc_year",
+        "FNAME,LNAME,EMAIL,PASSWORD,PHONEPREFIX,PHONE,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY,PPEMAIL,CCNUMBER,CVV,CCEXPMONTH,CCEXPYEAR2",
         true
     ],
     "Demon CC": [
