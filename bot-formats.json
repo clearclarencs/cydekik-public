@@ -338,7 +338,7 @@
     ],
     "Flare SNS": [
         "Region,URL,SKU,Size,Store,Color,Email,Password,First Name,Last Name,Address Line 1,Address Line 2,ZIP Code,City,State,Phone Number,Card Holder Name,Card Number,Card Exp. Month,Card Exp. Year,Card CVV,Instagram,Date of Birth,Gender",
-        "Region,URL,SKU,Size,Store,Color,EMAIL,PASSWORD,FNAME,LNAME,COMBINEDLINE1,LINE2,ZIP,CITY,REGION,PHONE,CCNAME,CCNUMBER,CCEXPMON,CCEXPYEAR4,CVV,Instagram,DOB,Gender",
+        "REGION,URL,SKU,SIZE,STORE,COLOR,EMAIL,PASSWORD,FNAME,LNAME,COMBINEDLINE1,LINE2,ZIP,CITY,REGION,PHONE,CCNAME,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,INSTAGRAM,DOB,GENDER",
         true
     ],
     "Linear CSV": [
