@@ -336,6 +336,11 @@
         "EMAIL,PASSWORD,FNAME,LNAME,COMBINEDLINE1,LINE2,CITY,REGION,ZIP,COUNTRY,PHONE,CCNUMBER,CCEXPMONTH/CCEXPYEAR2,CVV",
         true
     ],
+    "Flare SNS": [
+        "Region,URL,SKU,Size,Store,Color,Email,Password,First Name,Last Name,Address Line 1,Address Line 2,ZIP Code,City,State,Phone Number,Card Holder Name,Card Number,Card Exp. Month,Card Exp. Year,Card CVV,Instagram,Date of Birth,Gender",
+        "Region,URL,SKU,Size,Store,Color,EMAIL,PASSWORD,FNAME,LNAME,COMBINEDLINE1,LINE2,ZIP,CITY,REGION,PHONE,CCNAME,CCNUMBER,CCEXPMON,CCEXPYEAR4,CVV,Instagram,DOB,Gender",
+        true
+    ],
     "Linear CSV": [
         "Email Address,Profile Name,Only One Checkout,Name on Card,Card Type,Card Number,Expiration Month,Expiration Year,CVV,Same Billing/Shipping,Shipping Name,Shipping Phone,Shipping Address,Shipping Address 2,Shipping Address 3,Shipping Post Code,Shipping City,Shipping State,Shipping Country,Billing Name,Billing Phone,Billing Address,Billing Address 2,Billing Address 3,Billing Post Code,Billing City,Billing State,Billing Country,Size (Optional)",
         "EMAIL,PROFILENAME,ONECHECKOUT,CCNAME,CCTYPE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,SAMEADDYS,COMBINEDNAME,PHONE,COMBINEDLINE1,LINE2,LINE3,ZIP,CITY,REGION,COUNTRY,BILLINGNAME,BILLINGPHONE,BILLINGLINE1,BILLINGLINE2,BILLINGLINE3,BILLINGZIP,BILLINGCITY,BILLINGREGION,BILLINGCOUNTRY,SIZE",
