@@ -376,6 +376,11 @@
         "EMAIL,PASSWORD,FNAME,LNAME,PHONE,HOUSENUMBER,LINE1,LINE2,ZIP,CITY,COUNTRY,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,CCTYPE",
         true
     ],
+    "Demon Hades": [
+        "firstname,lastname,email,password,address,address number,address line 2,zipcode,city,state,country code,phone prefix,phone number,instagram,size,cc number,cc cvv,cc month,cc year",
+        "FNAME,LNAME,EMAIL,PASSWORD,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY,PHONEPREFIX,PHONE,INSTAGRAM,SIZE,CCNUMBER,CVV,CCEXPMONTH,CCEXPYEAR4",
+        true
+    ],
     "Linear JSON": [
         {
             "profileName": "",
