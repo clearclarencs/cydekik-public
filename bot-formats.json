@@ -385,7 +385,7 @@
     "Demon Hades CC": [
         "firstname,lastname,email,password,address,address number,address line 2,city,state,zipcode,country code,phone prefix,phone number,cc number,cc month,cc year,cc cvv",
         "FNAME,LNAME,EMAIL,PASSWORD,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY,PHONEPREFIX,PHONE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV",
-        true,
+        true
     ],
     "Linear JSON": [
         {
