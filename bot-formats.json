@@ -16,7 +16,7 @@
         "HOUSENUMBER": [
             "housenumber",
             "streetnumber",
-            "address number"
+            "addressnumber"
         ],
         "LINE1": [
             "addressline1",
