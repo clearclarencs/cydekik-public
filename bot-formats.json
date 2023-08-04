@@ -15,7 +15,8 @@
         ],
         "HOUSENUMBER": [
             "housenumber",
-            "streetnumber"
+            "streetnumber",
+            "address number"
         ],
         "LINE1": [
             "addressline1",
@@ -376,10 +377,15 @@
         "EMAIL,PASSWORD,FNAME,LNAME,PHONE,HOUSENUMBER,LINE1,LINE2,ZIP,CITY,COUNTRY,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV,CCTYPE",
         true
     ],
-    "Demon Hades": [
+    "Demon Hades CC INSTA": [
         "firstname,lastname,email,password,address,address number,address line 2,zipcode,city,state,country code,phone prefix,phone number,instagram,size,cc number,cc cvv,cc month,cc year",
         "FNAME,LNAME,EMAIL,PASSWORD,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY,PHONEPREFIX,PHONE,INSTAGRAM,SIZE,CCNUMBER,CVV,CCEXPMONTH,CCEXPYEAR4",
         true
+    ],
+    "Demon Hades CC": [
+        "firstname,lastname,email,password,address,address number,address line 2,city,state,zipcode,country code,phone prefix,phone number,cc number,cc month,cc year,cc cvv",
+        "FNAME,LNAME,EMAIL,PASSWORD,LINE1,HOUSENUMBER,LINE2,ZIP,CITY,REGION,COUNTRY,PHONEPREFIX,PHONE,CCNUMBER,CCEXPMONTH,CCEXPYEAR4,CVV",
+        true,
     ],
     "Linear JSON": [
         {
